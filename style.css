@@ -1,5 +1,5 @@
 body{
-    background-image: url("back.png");
+    background-color: #31473A;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -10,15 +10,15 @@ body{
 }
 
 #head{
-    color: rgb(255, 255, 255);
-    background-color: black;
+    color: white;
+    background-color: #23342a;
     text-align: center;
     padding: 10px;
     font-family: Helvetica;
 }
 
 #text{
-    color:rgb(0, 0, 0);
+    color:#9aafa3;
     text-align: center;
     border-color: rgb(0, 0, 0);
     border: 200Px;
@@ -26,138 +26,25 @@ body{
     font-family: Helvetica;
 }
 
-#btn1{
+button{
     padding: 20px;
-    background-color:rgb(129, 254, 137);
+    background-color:#476553;
     color:rgb(255, 255, 255);
     text-align: center;
     font-size: 1.15em;
     font-family: Helvetica;
 }
 
-#btn1:hover{
-    background-color:rgb(143, 255, 153);
-    color:rgb(183, 255, 189);
+button:hover{
+    background-color:#3c5848;
+    color:#ffffff;
 }
 
-#btn1:click{
-    background-color:rgb(129, 254, 137);
+button:click{
+    background-color:#293b31;
     color:rgb(0, 0, 0);
 }
 
-#btn2{
-    padding: 20px;
-    background-color:rgb(254, 129, 129);
-    color:rgb(255, 255, 255);
-    text-align: center;
-    font-size: 1.15em;
-    font-family: Helvetica;
-}
-
-#btn2:hover{
-    background-color:rgb(255, 148, 148);
-    color:rgb(254, 179, 179);
-}
-
-#btn2:click{
-    background-color:rgb(254, 129, 129);
-    color:rgb(0, 0, 0);
-}
-
-#btn3{
-    padding: 20px;
-    background-color:rgb(254, 204, 129);
-    color:rgb(255, 255, 255);
-    text-align: center;
-    font-size: 1.15em;
-    font-family: Helvetica;
-}
-
-#btn3:hover{
-    background-color:rgb(250, 208, 146);
-    color:rgb(255, 228, 188);
-}
-
-#btn3:click{
-    background-color:rgb(254, 204, 129);
-    color:rgb(0, 0, 0);
-}
-
-#btn4{
-    padding: 20px;
-    background-color:rgb(150, 129, 254);
-    color:rgb(255, 255, 255);
-    text-align: center;
-    font-size: 1.15em;
-    font-family: Helvetica;
-}
-
-#btn4:hover{
-    background-color:rgb(164, 145, 255);
-    color:rgb(199, 188, 255);
-}
-
-#btn4:click{
-    background-color:rgb(150, 129, 254);
-    color:rgb(0, 0, 0);
-}
-
-#btn5{
-    padding: 20px;
-    background-color:rgb(254, 241, 129);
-    color:rgb(255, 255, 255);
-    text-align: center;
-    font-size: 1.15em;
-    font-family: Helvetica;
-}
-
-#btn5:hover{
-    background-color:rgb(255, 244, 146);
-    color:rgb(255, 249, 198);
-}
-
-#btn5:click{
-    background-color:rgb(254, 241, 129);
-    color:rgb(0, 0, 0);
-}
-
-#btn6{
-    padding: 20px;
-    background-color:rgb(129, 183, 254);
-    color:rgb(255, 255, 255);
-    text-align: center;
-    font-size: 1.15em;
-    font-family: Helvetica;
-}
-
-#btn6:hover{
-    background-color:rgb(146, 193, 255);
-    color:rgb(204, 226, 255);
-}
-
-#btn6:click{
-    background-color:rgb(129, 183, 254);
-    color:rgb(0, 0, 0);
-}
-
-#btn7{
-    padding: 20px;
-    background-color:rgb(233, 129, 254);
-    color:rgb(255, 255, 255);
-    text-align: center;
-    font-size: 1.15em;
-    font-family: Helvetica;
-}
-
-#btn7:hover{
-    background-color:rgb(238, 156, 255);
-    color:rgb(246, 200, 255);
-}
-
-#btn7:click{
-    background-color:rgb(233, 129, 254);
-    color:rgb(0, 0, 0);
-}
 
 #num{
     font-size: 1em;
